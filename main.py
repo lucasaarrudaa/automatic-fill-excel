@@ -19,7 +19,6 @@ sum_brl = Transform().convert_to_brl(Ccadm().despesas_diretas(),
 
 Transform().complete(resumo, sum_brl, Resumo().despesas_diretas())
 
-
 #Despesas Admnistrativas 
 Resumo().despesas_admnistrativas()
 Ccmkt().despesas_admnistrativas()
@@ -35,6 +34,3 @@ sum_brl = Transform().convert_to_brl(Ccadm().despesas_admnistrativas(),
 Transform().complete(resumo, sum_brl, Resumo().despesas_admnistrativas())
 
 saida.save('tsts.xlsx')
-
-
-
