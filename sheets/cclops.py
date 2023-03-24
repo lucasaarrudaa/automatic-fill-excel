@@ -1,6 +1,6 @@
-from search import Search
-from read import Read
-from woorkbook import saida
+from utils.search import Search
+from utils.read import Read
+from woorkbook.woorkbook import saida
 
 class Cclops:
     '''
@@ -19,7 +19,6 @@ class Cclops:
 
         return self.cclops_46
 
-        
     def despesas_admnistrativas(self):
 
         return self.cclops_53

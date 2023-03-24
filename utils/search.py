@@ -1,6 +1,5 @@
 import re
 
-
 class Search:
 
     def __init__(self):
@@ -8,7 +7,6 @@ class Search:
         '''
     Finds patterns
     '''
-
     def value_position_cols(self, ws, col_1, col_2, value):
         '''
         Search a value in all cells in range of cols
