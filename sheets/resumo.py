@@ -8,6 +8,7 @@ class Resumo:
    
     '''
     resumo = Read().ws(saida, 'Resumo')
+    
     def __init__(self):
         '''
         Busca todas as linhas por cada coluna da sheet resumo, no atributo, r significa row, e é
