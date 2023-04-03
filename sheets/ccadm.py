@@ -4,12 +4,12 @@ from woorkbook.woorkbook import saida
 
 class Ccadm:
     '''
-    Gera os valores das colunas B de CCadm, acompanhada de um número, que é a linha.
+    Generates values for the B columns of CCadm, accompanied by a number, which is the row.
     '''
     def __init__(self):
         '''
-        lê a sheet ccadm e busca todas as linhas por cada coluna da sheet ccadm, no atributo, r significa row, e é
-        acompanhado pelo numero da linha.
+        Reads the ccadm sheet and searches all rows for each column of the ccadm sheet. 
+        In the attribute, "r" stands for row and is followed by the line number.
         '''        
         ccadm = Read().ws(saida, 'CCAdm')
         self.ccadm_46 = Search().get_values(ccadm, 'c46', 'o46')
